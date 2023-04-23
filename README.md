@@ -1,5 +1,3 @@
-Sure, here's a possible description you can use for your GitHub repository:
-
 # Telegram Nick Checker
 
 Telegram Nick Checker is a Python-based application that uses the asyncio and configparser libraries to check the availability of usernames on Telegram. It provides a simple and efficient way to check multiple usernames at once, allowing you to find available usernames quickly and easily.
