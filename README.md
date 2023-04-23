@@ -1,32 +1,34 @@
-# TGNickChecker
-Telegram nicknames availability checker
+Sure, here's a possible description you can use for your GitHub repository:
 
----------------------------------------------------------------------------------------------------------
+# Telegram Nick Checker
 
-FAQ (EN) 
-1) Install Python from the official site https://python.org
-(I hope you understand the setup)
-! ADD TO PATH do not forget to put
-2) Next, go to the directory with the script and enter the following command in the console:
+Telegram Nick Checker is a Python-based application that uses the asyncio and configparser libraries to check the availability of usernames on Telegram. It provides a simple and efficient way to check multiple usernames at once, allowing you to find available usernames quickly and easily.
+
+## Features
+
+- Check the availability of multiple usernames on Telegram at once
+- Uses asyncio to perform asynchronous requests, allowing for faster processing of large lists of usernames
+- Uses configparser to load and manage configuration files, making it easy to customize the application settings
+
+## Requirements
+
+- Python 3.7 or higher
+- asyncio 3.4.3 or higher
+- configparser 5.0.2 or higher
+
+## Installation
+
+To install Telegram Nick Checker, clone this repository and install the required dependencies using pip:
+
+```
+git clone https://github.com/yourusername/telegram-nick-checker.git
+cd telegram-nick-checker
 pip install -r requirements.txt
-3) Complete the config.ini file.
-API_ID and API_HASH take from https://my.telegram.org/auth
-TIME_SLEEP - waiting time between requests to Telegram
-4) Run the main file app.py
-(When you first run the script, you will be asked to enter a phone number and a code from Telegram)
-5) PROFIT!
+```
 
----------------------------------------------------------------------------------------------------------
+## Usage
 
-FAQ (RU)
-1) Установите Python с официального сайта https://python.org
-(Надеюсь разберетесь с устновкой)
-! ADD TO PATH не забудьте поставить
-2) Далее перейдите в дирректорию со скриптом и введите следующую команду в консоли:
-pip install -r requirements.txt
-3) Заполните config.ini файл.
-API_ID и API_HASH возьмите из https://my.telegram.org/auth
-TIME_SLEEP - время ожидания между запросами к Telegram
-4) Запустите главный файл app.py.
-(При первоначальном запуске скрипта вас попросят ввести номер телефона и код от Telegram)
-5) PROFIT!
+To use Telegram Nick Checker, create a configuration file called `config.ini` in the project directory and add the following lines:
+
+```ini
+[Telegram]
