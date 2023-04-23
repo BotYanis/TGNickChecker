@@ -1,0 +1,4 @@
+aiofiles==22.1.0
+Pyrogram==2.0.51
+loguru==0.6.0
+colorama==0.4.5
