@@ -19,7 +19,7 @@ Telegram Nick Checker is a Python-based application that uses the asyncio and co
 To install Telegram Nick Checker, clone this repository and install the required dependencies using pip:
 
 ```
-git clone https://github.com/yourusername/telegram-nick-checker.git
+git clone https://github.com/BotYanis/telegram-nick-checker.git
 cd telegram-nick-checker
 pip install -r requirements.txt
 ```
